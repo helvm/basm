@@ -1,0 +1,6 @@
+test bf "hello world"
+test subleq "hello world"
+
+test slv bf "hello world"
+test slv sl "hello world"
+

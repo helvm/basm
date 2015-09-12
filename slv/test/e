@@ -1,0 +1,5 @@
+cat | bc <<EOF
+2+3
+EOF
+
+

@@ -1,0 +1,36 @@
+ext - biblioteka wspólna
+slv - interpreter
+asm - asembler
+    exec - exec compiler
+    proc - procedury pisane recznie
+    temp - procedury generowane automatycznie
+    eval - generatory
+
+
+#########
+szczegóły
+
+asm/eval
+ogólne wszystkie można generować obudowane szablonem 
+jednoargumentowe rozkazy są bardzo podobne, można je generować
+
+
+    
+##############
+
+basm - wczytuje rozkazy i dodaje nagłówek
+binstr - wczytuje rozkazy i przetwarza na procedury (dodaje logowanie)
+
+bproc - wczytuje block procedury i przetwarza na indeksowane procedury
+iproc - wczytuje indeksowane procedury i dokonuje dalszych konwersji
+
+#####################
+
+Rejestry
+
+Wskaźnik stosu (Stack register)
+Akumulator (Accumulator)
+Licznik programu (Program counter)
+Wskaźnik instrukcji (Instruction pointer)
+
+

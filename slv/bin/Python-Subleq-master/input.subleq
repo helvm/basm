@@ -1,0 +1,8 @@
+a; p Z; Z a; Z
+a:0 -2
+m1 p;
+a; E Z; Z a; Z;
+p a -2
+Z Z -2
+. p:H Z:0 m1:-1
+. H: "Hello, World!" 10 E:E
